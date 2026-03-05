@@ -3,9 +3,9 @@ import "./App.css";
 import sorry1 from "/src/assets/sorry1.webp";
 import sorry2 from "/src/assets/sorry2.jpeg";
 import sorry3 from "/src/assets/sorry3.jpg";
-import sorry3 from "/src/assets/imsorry7.jpeg";
-import sorry3 from "/src/assets/imsorry8.jpg";
-import sorry3 from "/src/assets/imsorry9.webp";
+import sorry4 from "/src/assets/imsorry7.jpeg";
+import sorry5 from "/src/assets/imsorry8.jpg";
+import sorry6 from "/src/assets/imsorry9.webp";
 import besitoGif from "/src/assets/besito-catlove.gif";
 
 const App = () => {
@@ -36,7 +36,7 @@ const App = () => {
 
   // Determine which image to display
   const getImageSrc = () => {
-    const imageSequence = [sorry1, sorry2, sorry3];
+    const imageSequence = [sorry1, sorry2, sorry3,sorry4, sorry5, sorry6];
     return imageSequence[noClickCount % 3];
   };
 
