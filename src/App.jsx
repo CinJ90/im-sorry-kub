@@ -3,6 +3,9 @@ import "./App.css";
 import sorry1 from "/src/assets/sorry1.webp";
 import sorry2 from "/src/assets/sorry2.jpeg";
 import sorry3 from "/src/assets/sorry3.jpg";
+import sorry3 from "/src/assets/imsorry7.jpeg";
+import sorry3 from "/src/assets/imsorry8.jpg";
+import sorry3 from "/src/assets/imsorry9.webp";
 import besitoGif from "/src/assets/besito-catlove.gif";
 
 const App = () => {
